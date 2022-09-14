@@ -6,12 +6,12 @@
         "dotnet lambda help",
         "All the command line options for the Lambda command can be specified in this file."
     ],
-    "profile"     : "default",
+    "profile"     : "aws-admin",
     "region"      : "us-west-2",
     "configuration" : "Release",
     "s3-prefix"     : "com.tweetapp.api/",
     "template"      : "serverless.template",
     "template-parameters" : "",
-    "s3-bucket"           : "elasticbeanstalk-us-west-2-545851333413",
+    "s3-bucket"           : "tweetapps3bucket",
     "stack-name"          : "TweetAppApi"
 }
